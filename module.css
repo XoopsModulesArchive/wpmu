@@ -1,0 +1,277 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+img.left {
+	float: left;
+	margin: 5px 20px 0 0;
+}
+
+img.right {
+	float: right;
+	margin: 5px 0 0 20px;
+}
+
+/* Boxed Style */
+
+.boxed {
+}
+
+.boxed .title {
+	background: #3C74E6 url(images/img06.gif) repeat-x;
+}
+
+.boxed .title h2 {
+	height: 28px;
+	padding: 12px 0 0 20px;
+	text-transform: uppercase;
+	font-size: 1em;
+	color: #FFFFFF;
+}
+
+.boxed .content {
+	padding: 20px;
+	border-top: 1px solid #FFFFFF;
+	background: url(images/img07.gif) repeat-x;
+}
+
+/* Post */
+
+.post {
+}
+
+.post .title {
+	background: #3C74E6 url(images/img06.gif) repeat-x;
+	font-size: 1em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.post .title span {
+	display: block;
+	height: 28px;
+	padding: 12px 0 0 20px;
+}
+
+.post .date {
+	margin-top: -25px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	text-align: right;
+	font-size: x-small;
+	color: #FFFFFF;
+}
+
+.post .date .month {
+}
+
+.post .date .day {
+}
+
+.post .date .year {
+}
+
+.post .meta {
+	clear: both;
+}
+
+.post .meta p {
+	margin: 0;
+	padding: 10px 20px 40px 20px;
+	border-top: 1px dotted #CCCCCC;
+	line-height: normal;
+	font-size: x-small;
+}
+
+.post .story {
+	padding: 20px;
+	border-top: 1px solid #FFFFFF;
+	background: url(images/img07.gif) repeat-x;
+}
+
+/* Content */
+
+#content {
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px;
+	border-top: 1px solid #FFFFFF;
+}
+
+/* Content > Main */
+
+#main {
+	width: 95%;
+}
+
+/* Content > Main > Welcome */
+
+#welcome {
+}
+
+/* Content > Main > Example */
+
+#example {
+}
+
+/* Content > Sidebar */
+
+#sidebar {
+	float: left;
+	width: 100%;
+}
+
+#sidebar .boxed .title h2 {
+	background: url(images/img08.gif) no-repeat;
+}
+
+/* Content > Sidebar > Login */
+
+#login {
+}
+
+#login form {
+}
+
+#login fieldset {
+	border: none;
+}
+
+#login legend {
+	display: none;
+}
+
+#login label {
+	display: block;
+}
+
+#login input {
+	margin-bottom: 10px;
+	padding: 2px 5px;
+	font: normal small "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #666666;
+}
+
+#inputtext1, #inputtext2 {
+	width: 160px;
+}
+
+#inputsubmit1 {
+	margin: 0;
+	padding: 0;
+}
+
+/* Content > Sidebar > Updates*/
+
+#updates {
+}
+
+#updates ul {
+	margin: 0;
+	list-style: none;
+}
+
+#updates h3 {
+	font-size: .8em;
+}
+
+#updates p {
+	line-height: normal;
+	font-size: .8em;
+}
+
+#updates a {
+	text-decoration: none;
+}
+
+/* Content > Sidebar2 */
+
+#sidebar2 {
+	float: left;
+	width: 180px;
+	padding-left: 20px;
+}
+
+#sidebar2 .boxed .title h2 {
+	background: url(images/img10.gif) no-repeat right top;
+}
+
+/* Content > Sidebar2 > Sponsors */
+
+#sponsors {
+}
+
+#sponsors ul {
+	margin-left: 0;
+	padding-left: 0;
+	list-style: inside;
+}
+
+/* Content > Sidebar2 > ad120x600 */
+
+#ad120x600 {
+	text-align: center;
+}
+
+/* Footer */
+
+#footer {
+	clear: both;
+	width: 100%;
+	height: 80px;
+	margin: 0 auto;
+	padding: 20px 0;
+	background: url(images/img02.jpg) no-repeat;
+}
+
+#footer p {
+	margin: 0;
+	text-align: center;
+	line-height: normal;
+	font-size: x-small;
+}
+
+#footer a {
+	text-decoration: underline;
+	color: #666666;
+}
+
+#footer a:hover {
+	text-decoration: none;
+}
+
+/* Footer > Legal */
+
+#legal {
+}
+
+/* Footer > Links */
+
+#links {
+}
+
+/*  自訂 */
+#tbl{
+  width: 95%;
+	border-collapse: collapse;
+}
+
+#tbl th{
+	background: #3C74E6 url(images/img06.gif) repeat-x;
+  padding:5px;
+  border:1px solid rgb(217,233,244);
+}
+
+#tbl td{
+  padding:5px;
+  border:1px solid rgb(217,233,244);
+}
+
+.bar{
+  margin:10px;
+  text-align:center;
+}
